@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>FORMULARIO</h1>
+    <form action="">
+      <label for="nome-completo">Nome Completo</label>
+      <input type="text" placeholder="Escrava seu Nome" id="nome-completo" />
+      <br />
+      <br />
+      <label for="email">Email</label>
+      <input type="text" placeholder="Escrava seu Email" id="email" />
+      <br />
+      <p>Destino Preferido</p>
+      <label for="cidade"
+        ><input type="radio" id="cidade" value="city" name="destiny" />Cidade
+        <label for="campo"
+          ><input type="radio" value="camp" id="campo" name="destiny" />Campo
+        </label>
+        <label for="praia"
+          ><input type="radio" value="beach" id="praia" name="destiny" />Praia
+        </label>
+        <label for="montanha"
+          ><input
+            type="radio"
+            id="montanha"
+            value="muntain"
+            name="destiny"
+          />Montanhas
+        </label>
+      </label>
+      <br />
+      <p>Por que Eu deveria ganhar?</p>
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="Escrava Aqui"
+      ></textarea>
+      <p>Qual a melhor data para realizar sua viagem?</p>
+      <label for="data">Data:</label>
+      <input type="text" id="data" placeholder="DD/MM/AAAA" />
+      <br />
+      <label for="input-radio"
+        >Gostaria de receber outras incríveis oportunidades oferecidas pela
+        Trybe?</label
+      >
+      <input type="radio" id="input-radio" />
+      <br />
+      <label for="concordo"
+        >Concordo que imagens das minhas férias poderão ser usadas na divulgação
+        de concursos futuros.</label
+      >
+      <input type="radio" id="concordo" />
+      <br>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
