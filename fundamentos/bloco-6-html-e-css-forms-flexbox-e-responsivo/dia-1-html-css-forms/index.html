@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
   </head>
-  <body>
-    <h1>Formulário TrybeTrip</h1>
-    <div class="conteiner-principal">
+  <body class="form-group">
+    <h1 class="display-4 text-muted">Formulário TrybeTrip</h1>
+    <div class="conteiner-principal form-group">
     <form action="">
       <label for="nome-completo">Nome Completo</label>
       <input type="text" placeholder="Escrava seu Nome" id="nome-completo" />
@@ -62,10 +63,11 @@
       <input type="radio" id="concordo" />
     </div>
       <br>
-      <button type="submit">Enviar</button>
-      <button type="reset">Apagar</button>
+      <button class="btn btn-success" type="submit">Enviar</button>
+      <button class="btn btn-warning" type="reset">Apagar</button>
     </form>
 
+    <script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
