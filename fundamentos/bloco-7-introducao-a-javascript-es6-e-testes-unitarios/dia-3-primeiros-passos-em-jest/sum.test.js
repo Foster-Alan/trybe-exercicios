@@ -9,5 +9,8 @@ describe('1', () => {
     });
     it('teste se a função sum lança um erro quando os paramtros sao 4 e "5"', () =>{
         expect(() => sum(4, '5')).toThrow(Error);
+    });
+    it('Teste se a mensagem de erro é "parameters must be numbers" quando realizar a chamada sum(4, "5")', () => {
+        expect(() => sum(4, '5')).toThrow('parameters must be numbers');
     })
 });
